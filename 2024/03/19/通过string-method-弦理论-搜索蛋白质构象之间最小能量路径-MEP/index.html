@@ -27,7 +27,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/2024/03/19/%E9%80%9A%E8%BF%87string-method-%E5%BC%A6%E7%90%86%E8%AE%BA-%E6%90%9C%E7%B4%A2%E8%9B%8B%E7%99%BD%E8%B4%A8%E6%9E%84%E8%B1%A1%E4%B9%8B%E9%97%B4%E6%9C%80%E5%B0%8F%E8%83%BD%E9%87%8F%E8%B7%AF%E5%BE%84-MEP/string-method.png">
 <meta property="article:published_time" content="2024-03-19T15:29:11.000Z">
-<meta property="article:modified_time" content="2024-03-19T15:35:44.157Z">
+<meta property="article:modified_time" content="2024-03-19T16:02:03.181Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/2024/03/19/%E9%80%9A%E8%BF%87string-method-%E5%BC%A6%E7%90%86%E8%AE%BA-%E6%90%9C%E7%B4%A2%E8%9B%8B%E7%99%BD%E8%B4%A8%E6%9E%84%E8%B1%A1%E4%B9%8B%E9%97%B4%E6%9C%80%E5%B0%8F%E8%83%BD%E9%87%8F%E8%B7%AF%E5%BE%84-MEP/string-method.png">
@@ -416,8 +416,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-03-19 23:35:44</span>
-            <span class="mobile">2024-03-19 23:35:44</span>
+            <span class="desktop">2024-03-20 00:02:03</span>
+            <span class="mobile">2024-03-20 00:02:03</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -458,6 +458,8 @@
                      data-src="/2024/03/19/%E9%80%9A%E8%BF%87string-method-%E5%BC%A6%E7%90%86%E8%AE%BA-%E6%90%9C%E7%B4%A2%E8%9B%8B%E7%99%BD%E8%B4%A8%E6%9E%84%E8%B1%A1%E4%B9%8B%E9%97%B4%E6%9C%80%E5%B0%8F%E8%83%BD%E9%87%8F%E8%B7%AF%E5%BE%84-MEP/string-method.png"
                      
                 ></p>
+<p> 如上图所示为一张仅供测试的自由能景观图，在此图中可以看到的是有一条沿着state1至state2的一张自定义构象转换路径，在这张图上可以划分几个构象点，每一个点则可以为<code>i</code>，在这里我们需要描述一组集体变量（反应坐标)或者是粗变量：$$ z \equiv \lbrace z_1, z_2, …,z_n  \rbrace $$,上图中的公式则是将$$z$$表示为了一组反应坐标或者是粗略变量，这里就需要简要介绍一下z这个对象的具体含义了，通常在物理化学或者统计力学之中，$$z$$一般来说是系统在微观状态下在某一个时间节点上的函数，可以用于描述系统的宏观性质变化，这里的n的数值大小一般远小于N，N定义为系统的原子总数，所以这个很方便理解，其实$$z_i$$也就是在自由能景观图上自定义的一个初猜路径，那么对于自定义的变量$$z$$所对应的平均力势即PMF则可以通过下述公式进行表示：$$ e^{-\beta w(z)} &#x3D; \frac{\int dx \delta[z - z’(x)] e^{-\beta U(x)}}{\int dx e^{-\beta U(x)}} $$。在这个公式中$$e^{-\beta w(z)}$$为系统中一个给定微观状态x的玻尔兹曼因子，$$U(x)$$则是对应状态x的势能，在在这里可以将x理解为上述粗变量集合公式中所对应的$$i$$, $$x$$和$$i$$两者等价, $$\beta$$是热力学$$\beta$$因子，$$k$$是玻尔兹曼常数，$$T$$是系统的绝对温度。有意思的是在分子$$\int dx \delta[z - z’(x)] e^{-\beta U(x)}$$ 中会观察到一个$$\delta$$函数，此函数在数学物理中具有特殊的意义，也很有意思, $$\delta(x)$$定义在0点的积分为一且在0点处趋向于无穷大但是在0以外的所有地方都等于0，笔者记得自己第一次接触到$$\delta$$函数的时候也很疑惑，$$\delta$$可以理解为一个广义函数或者分布，所以在分子中起到了一定的粗变量筛选的作用，接下来我们在回过去细讲一下分子的具体含义，分子$$\int dx \delta[z - z’(x)] e^{-\beta U(x)}$$表示了对于所有可能的微观状态的 $x$ 或者 $$i$$ 的积分，这个积分用于计算在特定$$z$$下的所有可能配置的总权重。然后分母$$\int dx e^{-\beta U(x)}$$则是所有可能微观状态下的玻尔兹曼因子的积分，代表了整个配分函数。既然$$z(x)$$一般用于描述路径上的某一个状态。所以相应的$$\delta$$函数在分子处则可以理解为一个过滤函数, $$\delta$$函数本身具有正交性和筛选性，其筛选性则主要体现在下述的公式之中： </p>
+<p>$$<br> \int_{-\infty}^{+\infty}f(x)\delta(x-x_0)\text dx&#x3D;f(x_0)\<br>$$</p>
 
         </div>
 
@@ -472,7 +474,7 @@
         
             <li>
                 <strong>Updated at
-                    :</strong> 2024-03-19 23:35:44
+                    :</strong> 2024-03-20 00:02:03
             </li>
         
         <li>
