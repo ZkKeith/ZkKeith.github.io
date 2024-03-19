@@ -13,18 +13,24 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="http://example.com/archives/2024/"/>
+    <link rel="canonical" href="http://example.com/2024/03/19/通过string-method-弦理论-搜索蛋白质构象之间最小能量路径-mep/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/2024/index.html">
+        <meta name="description" content="1.背景相关弦方法(string-method)[[string-method.pdf]]现在已经在几种常见的自由能计算插件中都已经实现了基本的功能，目前为止常见的自由能插件有colvars和plumed，plumed相比于colvars而言可以和各大主流的分子动力学模拟程序并用进行重要性采样计算，而colvars目前主要集成于NAMD，GROMACS和LAMMPS之中，且个人认为colvars的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="通过string-method(弦理论)搜索蛋白质构象之间最小能量路径(MEP)">
+<meta property="og:url" content="http://example.com/2024/03/19/%E9%80%9A%E8%BF%87string-method-%E5%BC%A6%E7%90%86%E8%AE%BA-%E6%90%9C%E7%B4%A2%E8%9B%8B%E7%99%BD%E8%B4%A8%E6%9E%84%E8%B1%A1%E4%B9%8B%E9%97%B4%E6%9C%80%E5%B0%8F%E8%83%BD%E9%87%8F%E8%B7%AF%E5%BE%84-MEP/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1.背景相关弦方法(string-method)[[string-method.pdf]]现在已经在几种常见的自由能计算插件中都已经实现了基本的功能，目前为止常见的自由能插件有colvars和plumed，plumed相比于colvars而言可以和各大主流的分子动力学模拟程序并用进行重要性采样计算，而colvars目前主要集成于NAMD，GROMACS和LAMMPS之中，且个人认为colvars的">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2024/03/19/%E9%80%9A%E8%BF%87string-method-%E5%BC%A6%E7%90%86%E8%AE%BA-%E6%90%9C%E7%B4%A2%E8%9B%8B%E7%99%BD%E8%B4%A8%E6%9E%84%E8%B1%A1%E4%B9%8B%E9%97%B4%E6%9C%80%E5%B0%8F%E8%83%BD%E9%87%8F%E8%B7%AF%E5%BE%84-MEP/string-method.png">
+<meta property="article:published_time" content="2024-03-19T15:29:11.000Z">
+<meta property="article:modified_time" content="2024-03-19T15:35:44.157Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2024/03/19/%E9%80%9A%E8%BF%87string-method-%E5%BC%A6%E7%90%86%E8%AE%BA-%E6%90%9C%E7%B4%A2%E8%9B%8B%E7%99%BD%E8%B4%A8%E6%9E%84%E8%B1%A1%E4%B9%8B%E9%97%B4%E6%9C%80%E5%B0%8F%E8%83%BD%E9%87%8F%E8%B7%AF%E5%BE%84-MEP/string-method.png">
     
     
     <!--- Icon Part-->
@@ -36,7 +42,7 @@
     
     <title>
         
-            Archive: 2024 -
+            通过string-method(弦理论)搜索蛋白质构象之间最小能量路径(MEP) -
         
         Keith&#39;s Blog
     </title>
@@ -376,48 +382,205 @@
             <div class="main-content">
 
                 
-                    <div class="archive-container shadow-none hover:shadow-none sm:shadow-redefine sm:hover:shadow-redefine-hover">
-    
+                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
+    <div class="article-content-container">
 
-<div class="archive-list-container">
-    
-        <section class="archive-item mb-spacing-unit last:mb-0">
-            <div class="archive-item-header flex flex-row items-center mb-2">
-                <span class="archive-year font-semibold text-3xl mr-2">2024</span>
-                <span class="archive-year-post-count text-xs md:text-sm font-bold rounded-small bg-third-background-color py-[2px] px-[10px] border border-border-color">3</span>
+        <div class="article-title relative w-full">
+            
+                <div class="w-full flex items-center pt-6 justify-start">
+                    <h1 class="article-title-regular text-second-text-color text-4xl md:text-6xl font-bold px-2 sm:px-6 md:px-8 py-3">通过string-method(弦理论)搜索蛋白质构象之间最小能量路径(MEP)</h1>
+                </div>
+            
             </div>
-            <ul class="article-list pl-0 md:pl-8 text-lg leading-[1.5]">
-              
-                
-                    
-                    <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='03-19'>
-                
-                    
-                        <a href="/2024/03/19/%E9%80%9A%E8%BF%87string-method-%E5%BC%A6%E7%90%86%E8%AE%BA-%E6%90%9C%E7%B4%A2%E8%9B%8B%E7%99%BD%E8%B4%A8%E6%9E%84%E8%B1%A1%E4%B9%8B%E9%97%B4%E6%9C%80%E5%B0%8F%E8%83%BD%E9%87%8F%E8%B7%AF%E5%BE%84-MEP/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">通过string-method(弦理论)搜索蛋白质构象之间最小能量路径(MEP)</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/2024/03/19/Linux-From-Scratch-Compilation-Progress-System-Preparation/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">Linux From Scratch Compilation Progress(System Preparation)</span>
-                        </a>
-                    
-              
-                
-                    
-                        <a href="/2024/03/19/Umbrella-Sampling-Method-For-Ligand-Water-System/" class="block overflow-hidden w-fit">
-                            <span class="article-title mb-0.5 text-2xl">Umbrella Sampling Method For Ligand Water System</span>
-                        </a>
-                    
-              
-            </ul>
-        </section>
+
+        
+            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="/images/av.jpg">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">Keith</span>
+                        
+                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv1</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-03-19 23:29:11</span>
+        <span class="mobile">2024-03-19 23:29:11</span>
+        <span class="hover-info">Created</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2024-03-19 23:35:44</span>
+            <span class="mobile">2024-03-19 23:35:44</span>
+            <span class="hover-info">Updated</span>
+        </span>
+    
+
+    
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
     
 </div>
 
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+            <h3 id="1-背景相关"><a href="#1-背景相关" class="headerlink" title="1.背景相关"></a>1.背景相关</h3><p>弦方法(string-method)[[string-method.pdf]]现在已经在几种常见的自由能计算插件中都已经实现了基本的功能，目前为止常见的自由能插件有colvars和plumed，plumed相比于colvars而言可以和各大主流的分子动力学模拟程序并用进行重要性采样计算，而colvars目前主要集成于NAMD，GROMACS和LAMMPS之中，且个人认为colvars的计算效率相对于plumed来说更加快，在自己的笔记本上使用gromacs搭配colvars插件对于一个10万左右的原子体系进行3反应坐标的增强采样的时候，GPU的利用率维持在百分之70左右(在进行cMD的过程中)，每隔500000步使用colvars进行计算平均耗时不超过1秒，所以效率还是可以的。在这里还会涉及到使用自由能计算的时候的续跑问题，这里我就简单通过gromacs(colvars)做一个简单的示例，也欢迎各位和我讨论和NAMD搭配colvars插件的续跑问题，由于我对于plumed用的不多，所以在此就不做主要介绍了，使用gromacs进行自由能计算时的续跑命令如下：</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gmx mdrun -v -deffnm eabf -cpi eabf.cpt -colvars colvars_Normal_dihedral.dat -colvars_restart eabf.restart.colvars.state.dat -ntmpi 1 -ntomp 24 -pin on</span><br></pre></td></tr></table></figure></div>
+
+<p>在这个命令中我们可以看到的是只需要同时加上colvars和colvars_restart两个参数，colvars后面本身加的配置文件就是为colvars编写的输入配置文件，如果要进行续跑，则两个参数必须要同时出现，colvars_restart后面则应该加上模拟所产生的restart文件，由于在gromacs中colvars_restart后面只能加上后缀为.dat的文件，所以必须要将<strong>eabf.restart.colvars.state文件拷贝一份为.dat的格式</strong>，当你按照如上的，命令进行续跑的时候一般会出现restart中所展示的截止反应坐标和当前帧的反应坐标数值相差过大的问题，此时需要你同时修改eabf.restart.colvars.state.dat和eabf.restart.colvars.state两个文件中对应反应坐标的数值。具体情况可以参考这一个colvars的官方issue：</p>
+<blockquote>
+<p><a class="link"   target="_blank" rel="noopener" href="https://github.com/Colvars/colvars/issues/535" >issue#535:Restarting simulation with colvars <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<p>在我们接下来要讲的内容中，我将结合一个经典的示例分子和一个蛋白质构象变化体系具体讲一下如何计算由<strong>state1</strong>转变成<strong>state2</strong>的有意义的转换路径，寻找一条最有可能的最小作用路径，一般来讲，都是取两个状态之间沿着自由能面的一条直线猜测路径，在估计计算沿着这一条路径上的自由能变化，在这一个过程中我们将会使用到gspath和gzpath两个反应坐标并将其应用到自适应偏置力重要性采样算法之中，也就是ABF，之前在知乎上看到有人回答说的是string-method并不支持ABF而是支持metadynamics，可能是因为软件版本不同的原因，目前使用NAMD或者gromacs都可以实现string-method方法。</p>
+<h3 id="2-String-Method的理论背景"><a href="#2-String-Method的理论背景" class="headerlink" title="2.String-Method的理论背景"></a>2.String-Method的理论背景</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/2024/03/19/%E9%80%9A%E8%BF%87string-method-%E5%BC%A6%E7%90%86%E8%AE%BA-%E6%90%9C%E7%B4%A2%E8%9B%8B%E7%99%BD%E8%B4%A8%E6%9E%84%E8%B1%A1%E4%B9%8B%E9%97%B4%E6%9C%80%E5%B0%8F%E8%83%BD%E9%87%8F%E8%B7%AF%E5%BE%84-MEP/string-method.png"
+                     
+                ></p>
+
+        </div>
+
+        
+            <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> 通过string-method(弦理论)搜索蛋白质构象之间最小能量路径(MEP)</li>
+        <li><strong>Author:</strong> Keith</li>
+        <li><strong>Created at
+                :</strong> 2024-03-19 23:29:11</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2024-03-19 23:35:44
+            </li>
+        
+        <li>
+            <strong>Link:</strong> https://redefine.ohevan.com/2024/03/19/通过string-method-弦理论-搜索蛋白质构象之间最小能量路径-MEP/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+
+            
+                This work is licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a>.
+            
+        </li>
+    </ul>
 </div>
+
+            </div>
+        
+
+        
+
+        
+
+        
+            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/2024/03/19/Linux-From-Scratch-Compilation-Progress-System-Preparation/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">Linux From Scratch Compilation Progress(System Preparation)</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+                <div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        Comments
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>
+      import { init } from '/js/libs/waline.mjs';
+
+      function loadWaline() {
+        init({
+          el: '#waline',
+          serverURL: 'https://example.example.com',
+          lang: 'zh-CN',
+          dark: 'body[class~="dark-mode"]',
+          requiredMeta: ['nick', 'mail'],
+          emoji: [],
+          recaptchaV3Key: "wasd",
+          
+        });
+      }
+
+      if (typeof swup !== 'undefined') {
+        loadWaline();
+      } else {
+        window.addEventListener('DOMContentLoaded', loadWaline);
+      }
+    </script>
+
+
+
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">On this page</div>
+        <div class="page-title">通过string-method(弦理论)搜索蛋白质构象之间最小能量路径(MEP)</div>
+        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E8%83%8C%E6%99%AF%E7%9B%B8%E5%85%B3"><span class="nav-text">1.背景相关</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-String-Method%E7%9A%84%E7%90%86%E8%AE%BA%E8%83%8C%E6%99%AF"><span class="nav-text">2.String-Method的理论背景</span></a></li></ol>
+
+    </div>
+</div>
+        </div>
+    
+</div>
+
+
 
                 
 
@@ -499,6 +662,27 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-side-tools-container">
